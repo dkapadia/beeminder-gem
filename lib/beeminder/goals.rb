@@ -71,6 +71,8 @@ module Beeminder
 
     # @return [Numeric] Good side of the road. I.e., the side of the road (+1/-1 = above/below) that makes you say “yay”.
     attr_reader :yaw
+
+    attr_reader :baremin
     
     def initialize user, name_or_info
       @user = user
