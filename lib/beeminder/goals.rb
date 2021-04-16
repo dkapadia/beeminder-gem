@@ -73,7 +73,7 @@ module Beeminder
     attr_reader :yaw
 
     attr_reader :baremin
-    
+
     def initialize user, name_or_info
       @user = user
 
